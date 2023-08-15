@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/normalize.css">
+
+    <title>Portal GuaratibaNET</title>
+  </head>
+
+  <body>
+    
+    <header>
+
+      <nav class = "navbar navbar-expand-lg navegation-class">
+        
+        <!-- Logo -->
+        <a href="index.html" class = "navbar-brand">
+          <img src="image/logo-header-mobile.png" alt="image-mobile" id = "image-logo">
+          <img src="image/logo-header.png" alt="image-pc" id = "image-logo-pc">
+        </a>
+
+
+        <!-- Hamburguer Menu -->
+        <button class = "navbar-toggler" data-bs-toggle="collapse" data-bs-target="#div-navbar-id">
+          <span class = "navbar-toggler-icon"></span>
+        </button>
+
+
+        <!-- Links -->
+        <div class = "collapse navbar-collapse" id = "div-navbar-id">
+          <ul class = "navbar-nav ms-auto">
+            <li class = "nav-item hamburguer-menu-class">
+              <a href="index.html" class = "nav-link">HOME</a>
+            </li>
+            <li class = "nav-item hamburguer-menu-class">
+              <a href="pages/index-st.html" class = "nav-link">SUPORTE TÉCNICO</a>
+            </li>
+            <li class = "nav-item hamburguer-menu-class">
+              <a href="pages/index-financeiro.html" class = "nav-link">FINANCEIRO</a>
+            </li>
+            <li class = "nav-item hamburguer-menu-class">
+              <a href="pages/index-niver.html" class = "nav-link">ANIVERSARIANTES E FÉRIAS</a>
+            </li>
+            <li class = "nav-item hamburguer-menu-class">
+              <a href="pages/index-ramais.html" class = "nav-link">RAMAIS</a>
+            </li>
+          </ul>
+        </div>
+
+      </nav>
+
+    </header>
+
+    <main>
+
+      <!-- IMAGEM ALTERNANDO, COM LINK PARA CADA ASSUNTO -->
+      <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <abbr title="Manutenções em andamento">
+              <a href = "pages/index-massiva.html" target="_blank">
+                <picture>
+                  <source media="(min-width: 993px)" srcset = "image/image-main-01.jpg" type = "image/png">
+                  <img src = "image/image-main-01-mobile.jpg" alt = "Mobile">
+                </picture>
+              </a>
+            </abbr>
+          </div>
+          <div class="carousel-item">
+            <abbr title="Senha dos roteadores">
+              <a href="pages/index-senhas.html" target="_blank">
+                <picture>
+                  <source media="(min-width: 993px)" srcset = "image/image-main-02.jpg" type = "image/png">
+                  <img src = "image/image-main-02-mobile.jpg" alt = "Mobile">
+                </picture>
+              </a>
+            </abbr>
+          </div>
+          <div class="carousel-item">
+            <abbr title="Potencias das ONTs">
+              <a href="pages/index-potencia.html" target="_blank">
+                <picture>
+                  <source media="(min-width: 993px)" srcset = "image/image-main-03.jpg" type = "image/png">
+                  <img src = "image/image-main-03-mobile.jpg" alt = "Mobile">
+                </picture>
+              </a>
+            </abbr>
+          </div>
+          <div class="carousel-item">
+            <abbr title="Tabela de Equipamentos Comodatos">
+              <a href="pages/index-endereco.html">
+                <picture>
+                  <source media="(min-width: 993px)" srcset = "image/image-main-04.jpg" type = "image/png">
+                  <img src = "image/image-main-04-mobile.jpg" alt = "Mobile">
+                </picture>
+              </a>
+            </abbr>
+          </div>
+        </div>
+      </div>
+
+      <!-- ÚLTIMAS POSTAGENS, EM FORMATO TIPO SITE DE NOTICIAS (OU BLOG), UM DO LADO DO OUTRO. MÁX DE 3 COM READ MORE-->
+
+      <div class = "container-main-class">
+
+        <div class = "container-sec-main-class">
+          <a href="pages/index-localidades.html"><img src="image/localidade.jpg" alt="localidade"></a>
+          <h3>Localidades (Ramais)</h3>
+          <p>Ramais e localidades, para preenchimento do Reparo.</p>
+          <p>
+            <button class = "btn btn-danger">
+              <a href = "pages/index-localidades.html" target="_blank">Leia Mais</a>
+            </button>
+          </p>
+        </div>
+  
+        <div class = "container-sec-main-class">
+          <a href="pages/index-oscilacao.html"><img src="image/post01.jpg" alt="oscilacao"></a>
+          <h3>Oscilação e/ou Lentidão</h3>
+          <p>Configuração padrão para reduzir oscilação do cliente</p>
+          <p>
+            <button class = "btn btn-danger">
+              <a href = "pages/index-oscilacao.html" target="_blank">Leia Mais</a>
+            </button>
+          </p>
+        </div>
+        <div class = "container-sec-main-class">
+          <a href="pages/index-vencimento.html"><img src="image/post02.jpg" alt=""></a>
+          <h3>Mudança de Vencimento </h3>
+          <p>Passo a passo da mudança de vencimento no IXC</p>
+          <p>
+            <button class = "btn btn-danger">
+              <a href = "pages/index-vencimento.html" target="_blank">Leia Mais</a>
+            </button>
+          </p>
+        </div>
+        <div class = "container-sec-main-class">
+          <a href="pages/index-planos.html"><img src="image/post03.jpg" alt=""></a>
+          <h3>Planos Comercializados </h3>
+          <p>Tabela de preço com os planos comercializados atualmente pela GuaratibaNet</p>
+          <p>
+            <button class = "btn btn-danger">
+              <a href = "pages/index-planos.html" target="_blank">Leia Mais</a>
+            </button>
+          </p>
+        </div>
+      </div>
+
+      <!-- LINKS ÚTEIS -->
+      <div class = "container-link-class">
+      
+        <div>
+          <h2>Links Úteis</h2>
+          <p>
+            <a href="https://www.guaratiba.net.br/" target="_blank">Site GuaratibaNET</a>
+          </p>
+          <p>
+            <a href="https://www.guaratiba.net.br/adm.php" target="_blank">IXC</a> •
+            <a href="https://170.233.32.10/adm.php" target="_blank">IXC (Secundário)</a>
+          </p>
+          <p>
+            <a href="https://sac.guaratiba.net.br/atendente/" target="_blank">OPA</a> •
+            <a href="https://170.233.32.14/atendente/login/" target="_blank">OPA (Secundário)</a>
+          </p>
+          <p>
+            <a href="https://guaratiba.smartolt.com/auth/login" target="_blank">SmartOLT</a>
+          </p>
+          <p>
+            <a href="https://guaratiba.net.br/central_assinante_web/" target="_blank">Central do Assinante</a>
+          </p>
+          <p>
+            <a href="https://docs.google.com/spreadsheets/d/1qifQ1Ny5T2ZnVD7TEkEzk-z61gU6SU8O/edit#gid=1954942140" target="_blank">Reparos Junho</a>
+          </p>
+                </div>
+        </div>
+
+      <!-- MAPA DAS DUAS LOJAS, COM ENDEREÇO E CONTATO 
+      MOSTRAR CLIMA TAMBÉM -->
+
+      <div class = "container-map-class">
+        <div class = "address-class">
+          <p>Estr. do Catruz, 2572 - Loja B - Pedra de Guaratiba, Rio de Janeiro - RJ, 23026-280</p>
+          <p>Endereço Sepetiba: Estrada de Sepetiba, 5.541 - Sepetiba, Rio de Janeiro - RJ, 23545-003</p>
+          <hr>
+          <p>Contatos: (21) 3317-1520 e (21) 4063-4747</p>
+          <p>E-mail: guaratibanet@gmail.com</p>
+        </div>
+        <div class = "map-class">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14690.705138069543!2d-43.6347463!3d-22.9989284!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9bee2b2c5399b5%3A0xc0cc5597ecc7d189!2sGuaratiba%20Net!5e0!3m2!1sen!2sbr!4v1685281716385!5m2!1sen!2sbr" width="200" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+
+    </main>
+
+    <footer class = "footer container-fluid text-center text-muted py-3">
+      <p>&copy Created by Lucas Carvalho</p>
+    </footer>
+
+
+
+    <!-- JAVASCRIPT 
+    **************** -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+    <script src="javascript/script.js"></script>
+  </body>
+
+</html>
