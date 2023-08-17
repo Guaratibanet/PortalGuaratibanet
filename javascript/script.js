@@ -9,19 +9,19 @@ class GuaratibaNet {
             this.searchFunc()
         })
 
-        alert ("Manutenção: BSR048CX554 / BSR048CX555. Previsão: 18h")
+        //alert ("Manutenção: BSR048CX554 / BSR048CX555. Previsão: 18h")
 
     }
 
     searchFunc() {
 
         this.inputSearchValue = this.inputSearch.value
+        this.inputSearchValue = this.inputSearchValue.trim()
 
         if (this.inputSearchValue === '') {
-            alert ("Insira os dados de pesquisa")
+            alert ("Insira as informações no campo de busca")
         } else {
-            console.log (this.inputSearchValue)
-            console.log (typeof this.inputSearchValue)
+            console.log ("Passou")
         }
 
         
