@@ -175,7 +175,24 @@ main {
     text-decoration: none;
 }
 
+.container-search-class {
+    text-align: center;
+    padding: 30px;
+}
 
+.container-search-class input {
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.container-search-class button {
+    margin-top: 10px;
+}
+
+.container-search-class a {
+    text-decoration: none;
+    color: white;
+}
 
 /* LINKS */
 
