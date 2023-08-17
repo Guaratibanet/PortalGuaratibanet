@@ -20,6 +20,7 @@ class GuaratibaNet {
 
         if (this.inputSearchValue === '') {
             alert ("Insira as informações no campo de busca")
+            this.inputSearch.value = ""
         } else {
             console.log ("Passou")
         }
