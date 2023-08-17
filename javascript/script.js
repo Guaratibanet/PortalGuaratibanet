@@ -18,7 +18,7 @@ class GuaratibaNet {
         this.inputSearchValue = this.inputSearch.value
 
         if (this.inputSearchValue === '') {
-            alert ("ins")
+            alert ("Insira os dados de pesquisa")
         } else {
             console.log (this.inputSearchValue)
             console.log (typeof this.inputSearchValue)
