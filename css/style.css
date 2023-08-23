@@ -23,6 +23,14 @@ li {
    padding: 5px; 
 }
 
+.red-color-class {
+    color: red;
+}
+
+.transparent-class {
+    color: transparent;
+}
+
 /* HEADER */
 
 @media (max-width: 992px) {
@@ -187,6 +195,11 @@ main {
 
 .container-search-class button {
     margin-top: 10px;
+}
+
+.container-search-class a {
+    text-decoration: none;
+    color: white;
 }
 
 /* LINKS */
