@@ -1,4 +1,4 @@
-class GuaratibaNet {
+export default class GuaratibaNet {
 
     constructor() {
 
@@ -22,9 +22,11 @@ class GuaratibaNet {
             alert ("Insira as informações no campo de busca")
             this.inputSearch.value = ""
         } else {
-            console.log ("Passou")
+            console.log (this.inputSearchValue)
+            //window.location.href = "pages/index-searchlist.html"
         }
 
+        
         
     }
 
